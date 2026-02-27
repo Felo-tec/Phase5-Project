@@ -1,0 +1,145 @@
+[
+  {
+    "customer_id": "daily_min_power",
+    "risk_level": "High",
+    "composite_risk_score": 67.14,
+    "recommendation": "HIGH: Schedule inspection within 1-2 weeks",
+    "key_indicators": [
+      "\u26a0\ufe0f  Highly unstable consumption pattern (High Coefficient of Variation)",
+      "\u26a0\ufe0f  Abnormally low consumption for customer segment"
+    ],
+    "investigation_priorities": [
+      "Check for meter tampering or irregular usage",
+      "Verify meter function and connections"
+    ],
+    "customer_profile": {
+      "mean_daily_consumption_kwh": 0.08,
+      "consumption_std_dev": 0.08,
+      "coefficient_of_variation": 0.997,
+      "consumption_range": 1.14,
+      "min_consumption": -0.16,
+      "max_consumption": 0.99
+    },
+    "priority": 2
+  },
+  {
+    "customer_id": "daily_mean_power",
+    "risk_level": "High",
+    "composite_risk_score": 65.71,
+    "recommendation": "HIGH: Schedule inspection within 1-2 weeks",
+    "key_indicators": [
+      "\u26a0\ufe0f  Highly unstable consumption pattern (High Coefficient of Variation)"
+    ],
+    "investigation_priorities": [
+      "Check for meter tampering or irregular usage"
+    ],
+    "customer_profile": {
+      "mean_daily_consumption_kwh": 1.1,
+      "consumption_std_dev": 0.47,
+      "coefficient_of_variation": 0.427,
+      "consumption_range": 4.03,
+      "min_consumption": 0.12,
+      "max_consumption": 4.15
+    },
+    "priority": 2
+  },
+  {
+    "customer_id": "daily_std_power",
+    "risk_level": "High",
+    "composite_risk_score": 60.0,
+    "recommendation": "HIGH: Schedule inspection within 1-2 weeks",
+    "key_indicators": [],
+    "investigation_priorities": [],
+    "customer_profile": {
+      "mean_daily_consumption_kwh": 0.94,
+      "consumption_std_dev": 0.36,
+      "coefficient_of_variation": 0.381,
+      "consumption_range": 2.37,
+      "min_consumption": 0.1,
+      "max_consumption": 2.47
+    },
+    "priority": 2
+  },
+  {
+    "customer_id": "daily_max_power",
+    "risk_level": "High",
+    "composite_risk_score": 57.14,
+    "recommendation": "HIGH: Schedule inspection within 1-2 weeks",
+    "key_indicators": [
+      "\u26a0\ufe0f  High consumption volatility",
+      "\u26a0\ufe0f  Significant consumption trend detected"
+    ],
+    "investigation_priorities": [
+      "Investigate unusual spikes and drops in usage",
+      "Analyze consumption trajectory for suspicious patterns"
+    ],
+    "customer_profile": {
+      "mean_daily_consumption_kwh": 5.5,
+      "consumption_std_dev": 1.96,
+      "coefficient_of_variation": 0.356,
+      "consumption_range": 13.2,
+      "min_consumption": 0.71,
+      "max_consumption": 13.91
+    },
+    "priority": 2
+  },
+  {
+    "customer_id": "intensity_mean",
+    "risk_level": "Medium",
+    "composite_risk_score": 45.71,
+    "recommendation": "MEDIUM: Schedule routine inspection",
+    "key_indicators": [
+      "\u26a0\ufe0f  High consumption volatility"
+    ],
+    "investigation_priorities": [
+      "Investigate unusual spikes and drops in usage"
+    ],
+    "customer_profile": {
+      "mean_daily_consumption_kwh": 4.63,
+      "consumption_std_dev": 1.74,
+      "coefficient_of_variation": 0.376,
+      "consumption_range": 13.22,
+      "min_consumption": 0.81,
+      "max_consumption": 14.03
+    },
+    "priority": 3
+  },
+  {
+    "customer_id": "voltage_std",
+    "risk_level": "Medium",
+    "composite_risk_score": 38.57,
+    "recommendation": "MEDIUM: Schedule routine inspection",
+    "key_indicators": [],
+    "investigation_priorities": [],
+    "customer_profile": {
+      "mean_daily_consumption_kwh": 2.42,
+      "consumption_std_dev": 0.69,
+      "coefficient_of_variation": 0.286,
+      "consumption_range": 4.92,
+      "min_consumption": 1.04,
+      "max_consumption": 5.97
+    },
+    "priority": 3
+  },
+  {
+    "customer_id": "voltage_mean",
+    "risk_level": "Medium",
+    "composite_risk_score": 35.71,
+    "recommendation": "MEDIUM: Schedule routine inspection",
+    "key_indicators": [
+      "\u26a0\ufe0f  Significant consumption trend detected"
+    ],
+    "investigation_priorities": [
+      "Analyze consumption trajectory for suspicious patterns"
+    ],
+    "customer_profile": {
+      "mean_daily_consumption_kwh": 240.84,
+      "consumption_std_dev": 2.04,
+      "coefficient_of_variation": 0.008,
+      "consumption_range": 16.35,
+      "min_consumption": 231.09,
+      "max_consumption": 247.44
+    },
+    "priority": 3
+  }
+]
